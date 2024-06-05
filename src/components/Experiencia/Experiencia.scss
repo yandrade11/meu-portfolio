@@ -1,0 +1,25 @@
+.experiencia {
+  h3,
+  p {
+    font-family: system-ui, -apple-system, Roboto;
+    font-size: 0.9em;
+    margin: 0;
+    text-align: left;
+  }
+
+  h3 {
+    margin: 360px 0 30px;
+
+    font-size: 1.3em;
+    font-weight: initial;
+  }
+
+  hr {
+    background: transparent url("../../assets/linha/linha.jpg") left no-repeat;
+    border-width: 0;
+    color: #6e6d8a;
+    margin-bottom: 20px;
+    height: 3px;
+    width: 200px;
+  }
+}
