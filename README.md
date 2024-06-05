@@ -6,6 +6,6 @@ Aqui neste portfólio buscarei de forma interessante, confiável e inovadora, ap
 
 ## Como iniciar o projeto
 
-    - `git clone <link-do-projeto>`: Para clonar o projeto na pasta desejada;
-    - `npm install` ou `npm i`: Para baixar dependências do projeto;
-    - `npm run dev`: Para dar start no portfólio (por enquanto).
+- `git clone <link-do-projeto>`: Para clonar o projeto na pasta desejada;
+- `npm install` ou `npm i`: Para baixar dependências do projeto;
+- `npm run dev`: Para dar start no portfólio (por enquanto).
