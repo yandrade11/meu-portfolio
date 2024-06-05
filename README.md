@@ -1,8 +1,11 @@
-# React + Vite
+# Yuri Andrade - Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de portfólio sendo criado com React Vite + SWC, objetivo principal de prática de React e possíveis problemas frequentemente visualizados no mercado de trabalho.
 
-Currently, two official plugins are available:
+Aqui neste portfólio buscarei de forma interessante, confiável e inovadora, apresentar minhas habilidades como desenvolvedor.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Como iniciar o projeto
+
+    - `git clone <link-do-projeto>`: Para clonar o projeto na pasta desejada;
+    - `npm install` ou `npm i`: Para baixar dependências do projeto;
+    - `npm run dev`: Para dar start no portfólio (por enquanto).
