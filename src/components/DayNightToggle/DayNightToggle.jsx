@@ -8,16 +8,16 @@ export default function DayNightToggle2() {
   const handleCheck = () => {
     setInputCheck((prevState) => !prevState);
 
-    const main = document.querySelector(".main-content");
+    const body = document.querySelector("body");
     const label = document.querySelector(".label__day-night-toggle");
 
     if (!inputIsChecked) {
-      main.style.backgroundColor = "#2e2e47";
-      main.style.color = "#fffafa";
+      body.style.backgroundColor = "#2e2e47";
+      body.style.color = "#fffafa";
       label.title = "Modo noturno";
     } else {
-      main.style.backgroundColor = "#fffafa";
-      main.style.color = "#2e2e47";
+      body.style.backgroundColor = "#fffafa";
+      body.style.color = "#2e2e47";
       label.title = "Modo diurno";
     }
   };
