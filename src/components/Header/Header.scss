@@ -1,5 +1,5 @@
 .header {
-  display: block;
+  display: flex;
   font-family: system-ui;
   text-align: end;
   height: 80px;
@@ -21,9 +21,12 @@
 
   ul {
     display: flex;
-
-    justify-content: flex-end;
     list-style-type: none;
+  }
+
+  ul.header__contato {
+    // justify-content: flex-end;
+    margin-left: auto;
 
     li {
       flex-wrap: nowrap;
