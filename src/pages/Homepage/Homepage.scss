@@ -8,8 +8,8 @@ body {
     text-align: left;
 
     h1 {
-      font-size: 2em;
-      line-height: 0;
+      font-size: 3em;
+      // line-height: 0;
     }
 
     h2 {
@@ -23,6 +23,7 @@ body {
   }
 }
 
+//escrevendo do 0 até
 @keyframes typing {
   from {
     width: 0;
@@ -39,10 +40,17 @@ body {
 @media (min-width: 1025px) {
   /* Regras para desktops */
 
-  p.texto-dinamico {
-    animation: typing 6s steps(104), blinking 0.5s step-end alternate;
+  .texto-dinamico {
+    animation: typing 8s steps(104), blinking 0.5s step-end alternate;
     overflow: hidden;
     white-space: nowrap;
     width: 104ch;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  /* Regras para dispositivos móveis */
+  h1, h2 {
+    text-align: center;
   }
 }

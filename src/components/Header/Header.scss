@@ -27,7 +27,7 @@
 
   ul.header__contato {
     padding: 0;
-    margin-left: auto;  //alinhamento à direita
+    margin-left: auto; //alinhamento à direita
 
     li {
       margin: 0 5px;
@@ -35,7 +35,13 @@
   }
 }
 
-
 @media (min-width: 1025px) {
   /* Regras para desktops */
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  /* Regras para dispositivos móveis */
+  .header {
+    margin-bottom: 30px;
+  }
 }

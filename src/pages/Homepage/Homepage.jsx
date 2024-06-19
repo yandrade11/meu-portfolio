@@ -7,9 +7,7 @@ export default function Homepage() {
       <div className="texto-apresentacao">
         <h1>Yuri Andrade</h1>
 
-        <p className="texto-dinamico">
-          <h2>Imaginando e inovando coisas na internet.</h2>
-        </p>
+        <h2 className="texto-dinamico">Imaginando e inovando coisas na internet.</h2>
 
         <p>
           Profissional desenvolvedor de software Frontend viciado em
