@@ -1,7 +1,13 @@
-@import './main.css';
+@import "./main.css";
 @import "./App.css";
 @import "./components/DarkMode/palheta-cores.scss";
 @import "./components/Header/Header.scss";
-@import "./components/DayNightToggle/DayNightToggle.scss";
-@import "./components/Experiencia/Experiencia.scss";
 @import "./pages/Homepage/Homepage.scss";
+// @import "./components/Experiencia/Experiencia.scss";
+@import "./components/DayNightToggle/DayNightToggle.scss";
+
+//OBS: por algum motivo, que desconheço, o import do experiencia não funciona aqui, então tenho que importá-lo diretamente na Experiencia.jsx
+
+//OBS 2: também não funciona importar este index lá na Experiencia.jsx
+
+//OBS 3: se descomentar também para de funcionar
