@@ -10,8 +10,6 @@ import {
 
 import Layout from './components/Layout/Layout';
 import Homepage from "./pages/Homepage/Homepage";
-import "./App.css";
-import './index.scss';
 
 const browserRouter = createBrowserRouter(
   createRoutesFromElements(
