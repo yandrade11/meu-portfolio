@@ -1,15 +1,10 @@
-body {
-  background-color: #2e2e47;
-  color: #fffafa;
-  transition: background-color 0.75s ease-in-out;
-  transition: color 1s ease-in-out;
-
+.homepage {
   .texto-apresentacao {
     text-align: left;
 
     h1 {
       font-size: 3em;
-      // line-height: 0;
+      line-height: 1.1;
     }
 
     h2 {
