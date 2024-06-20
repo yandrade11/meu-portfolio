@@ -1,3 +1,5 @@
+import "./Experiencia.scss";
+
 export default function Experiencia() {
   return (
     <>
