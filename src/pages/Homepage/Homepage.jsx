@@ -1,5 +1,4 @@
 import Experiencia from "../../components/Experiencia/Experiencia";
-import "./Homepage.scss";
 
 export default function Homepage() {
   return (

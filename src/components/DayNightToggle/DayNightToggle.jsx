@@ -1,6 +1,5 @@
 //Referência do componente: https://codepen.io/borntofrappe/pen/aboPapm
 import { useState } from "react";
-import "./DayNightToggle.scss";
 
 export default function DayNightToggle() {
   const [inputIsChecked, setInputCheck] = useState(true);

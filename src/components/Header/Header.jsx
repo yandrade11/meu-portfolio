@@ -1,4 +1,3 @@
-import "../Header/Header.scss";
 import { Link } from "react-router-dom";
 import { AiOutlineGithub, AiFillLinkedin } from "react-icons/ai";
 import DayNightToggle from "../DayNightToggle/DayNightToggle";
